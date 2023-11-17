@@ -1,19 +1,13 @@
 .DS_Store
 
-# Images
-images/avatars/
-images/captchas/
-images/smileys/
-images/member_photos/
-images/signature_attachments/
-images/pm_attachments/
+# Node dependencies
+node_modules
 
-# For security do not publish the following files
-system/expressionengine/config/database.php
-system/expressionengine/config/config.php
+# Logs
+logs
+*.log
 
-# Caches
-sized/
-thumbs/
-_thumbs/
-*/expressionengine/cache/*
+# Local env files
+.env
+.env.*
+!.env.example
